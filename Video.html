@@ -1,0 +1,273 @@
+<!doctype html>
+                        <html>
+                            <head>
+                                <meta charset='utf-8'>
+                                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                                <title>Niz F Portfolio</title>
+                                <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+                                <link href='#' rel='stylesheet'>
+                                <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+                                <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+                                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+                                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+                                <link rel="stylesheet" href="css/bootstrap.min.css">
+                                <link rel="stylesheet" href="css/animate.min.css">
+                                <link rel="stylesheet" href="css/owl.carousel.min.css">
+                                <link rel="stylesheet" href="css/owl.theme.default.min.css">
+                                <link rel="stylesheet" href="fonts/icomoon/style.css">
+                                <link rel="stylesheet" href="fonts/feather/style.css">
+                                <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+                                <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+                                <link rel="stylesheet" href="css/aos.css">
+                                <link rel="stylesheet" href="css/style.css">
+
+
+
+                                <style>::-webkit-scrollbar {
+                                  width: 8px;
+                                }
+                                /* Track */
+                                ::-webkit-scrollbar-track {
+                                  background: #f1f1f1; 
+                                }
+                                 
+                                /* Handle */
+                                ::-webkit-scrollbar-thumb {
+                                  background: #888; 
+                                }
+                                
+                                /* Handle on hover */
+                                ::-webkit-scrollbar-thumb:hover {
+                                  background: #555; 
+                                } /** code by webdevtrick ( https://webdevtrick.com ) **/
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 50vh;
+  display: grid;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+
+
+
+
+.myimages {
+  display: flex;
+  overflow: hidden;
+  height: 150vw;
+  background: #333;
+
+}
+
+.myimages img {
+  max-width: 275px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  transition: opacity .2s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+
+
+
+
+
+.first-column {
+  animation: var(--animation, none) 16s infinite linear;
+}
+
+.first-column:hover .overlay {
+  opacity: 1;
+}
+
+.first-column:hover p.caption {
+    display: block;
+}
+
+.first-column p.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.first-column:hover {
+  animation-play-state: paused;
+}
+
+.first-column:nth-of-type(odd) {
+  align-self: flex-end;
+  --direction: 50%;
+}
+
+@keyframes slide {
+  to {
+    -webkit-transform: translateY(var(--direction, -50%));
+            transform: translateY(var(--direction, -50%));
+  }
+}</style>
+                                </head>
+
+   <div class="myimages">     
+    <div class="container">
+      <nav class="navbar navbar-expand-bg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> Demo </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pictures Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Videos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="VideoPages/showreel.html">SHOWREEL</a>
+                <a class="dropdown-item" href="VideoPages/M&B.html">M&B </a>
+                <a class="dropdown-item" href="VideoPages/J2.html">J2 Turning Pages</a>
+                <a class="dropdown-item" href="VideoPages/PabloGuerro.html">Pablo Guerrro Infintium</a>
+                <a class="dropdown-item" href="VideoPages/LoraCaven.html">Lora Caven Certified High Performance Coach</a>
+                <a class="dropdown-item" href="VideoPages/KOXNYGE.html">KOXNYGE-LYRIC Video</a>
+                <a class="dropdown-item" href="VideoPages/Animations.html">Animations</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pictures
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/ImageGallery/GRM.html">GRMDaily</a>
+                <!-- 
+                <a class="dropdown-item" href="VideoPages/M&B.html">M&B </a>
+                <a class="dropdown-item" href="VideoPages/J2.html">J2 Turning Pages</a>
+                <a class="dropdown-item" href="VideoPages/PabloGuerro.html">Pablo Guerrro Infintium</a>
+                <a class="dropdown-item" href="VideoPages/LoraCaven.html">Lora Caven Certified High Performance Coach</a>
+                <a class="dropdown-item" href="VideoPages/KOXNYGE.html">KOXNYGE-LYRIC Video</a>
+                <a class="dropdown-item" href="VideoPages/vid copy.html">Animations</a>
+                <a class="dropdown-item" href="#">DOCHI- WISH ME WELL</a>
+                -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+   <div class="first-column"> 
+      <a href="#"><img src="images/Golf1.gif" onclick="openModal();currentSlide(29)" alt="image"></a>
+      <a href="#"><img src="images/6lo9cm.gif" onclick="openModal();currentSlide(30)" alt="image"></a>
+      <a href="#"><img src="images/giphy (6).gif" onclick="openModal();currentSlide(31)" alt="image"></a>
+      <a href="#"><img src="images/RemyGliz.gif" onclick="openModal();currentSlide(32)" alt="image"></a>
+   </div>
+   <div class="first-column">
+    <a href="#"><img src="images/giphy (11).gif" onclick="openModal();currentSlide(5)" alt="image"></a>
+    <a href="#"><img src="images/Swoosh.gif" onclick="openModal();currentSlide(6)" alt="image"></a>
+    <a href="#"><img src="images/6lo8uz.gif" onclick="openModal();currentSlide(7)" alt="image"></a>
+    <a href="#"><img src="images/ezgif-5-7c748a8f6e.gif" onclick="openModal();currentSlide(8)" alt="image"></a>
+ </div>
+ <div class="first-column">
+    <a href="/VideoPages/vid.html"><img src="images/GIphy.gif" onclick=""  alt="image"></a>
+    <a href="#"><img src="images/ezgif-3-3d57ecbfea.gif" onclick="openModal();currentSlide(10)" alt="image"></a>
+    <a href="#"><img src="images/Floetic.gif" onclick="openModal();currentSlide(11)" alt="image"></a>
+    <a href="#"><img src="images/ezgif-5-0cb2d525a1.gif" onclick="openModal();currentSlide(12)" alt="image"></a>
+    <a href="#"><img src="images/Swoosh.gif" onclick="openModal();currentSlide(12)" alt="image"></a>
+ </div>
+ <div class="first-column">
+    <a href="#"><img src="images/giphy (5).gif"  onclick="openModal();currentSlide(13)" alt="image"></a>
+    <a href="#"><img src="images/giphy (6).gif"  onclick="openModal();currentSlide(14)" alt="image"></a>
+    <a href="#"><img src="images/Showreel.gif"  onclick=openModal();currentSlide(15)"  alt="image"></a>
+    <a href="#"><img src="images/giphy (8).gif"  onclick="openModal();currentSlide(16)" alt="image"></a>
+    <a href="#"><img src="images/giphy (9).gif"  onclick="openModal();currentSlide(16)" alt="image"></a>
+ </div>
+ <!-- 
+ <div class="first-column">
+    <a href="#"><img src="images/giphy (10).gif" onclick="openModal();currentSlide(17)" alt="image"></a>
+    <a href="#"><img src="images/giphy (11).gif" onclick="openModal();currentSlide(18)" alt="image"></a>
+    <a href="#"><img src="images/giphy (12).gif" onclick="openModal();currentSlide(19)" alt="image"></a>
+    <a href="#"><img src="images/giphy (13).gif" onclick="openModal();currentSlide(20)" alt="image"></a>
+ </div>
+ -->
+ <!-- 
+ <div class="first-column">
+    <a href="#"><img src="images/giphy (14).gif" onclick="openModal();currentSlide(21)" alt="image"></a>
+    <a href="#"><img src="images/6lo5gl.gif" onclick="openModal();currentSlide(22)" alt="image"></a>
+    <a href="#"><img src="images/6lo87n.gif" onclick="openModal();currentSlide(23)" alt="image"></a>
+    <a href="#"><img src="images/6lo8ul.gif" onclick="openModal();currentSlide(24)" alt="image"></a>
+ </div>
+ -->
+ <!-- 
+ <div class="first-column">
+    <a href="#"><img src="images/6lo8uz.gif" onclick="openModal();currentSlide(25)" alt="image"></a>
+    <a href="#"><img src="images/6lo957.gif" onclick="openModal();currentSlide(26)" alt="image"></a>
+    <a href="#"><img src="images/6lo96r.gif" onclick="openModal();currentSlide(27)" alt="image"></a>
+    <a href="#"><img src="images/6lo9bc.gif" onclick="openModal();currentSlide(28)" alt="image"></a>
+ </div>
+ -->
+
+</div>
+  </div>
+
+
+
+  
+</div>
+
+
+
+
+  <script src="js/custom.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    
+
+
+
+
+                                <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+                                <script type='text/javascript' src='#'></script>
+                                <script type='text/javascript' src='#'></script>
+                      
+<script type='text/javascript'>$(document).ready(function(){
+    
+  [...document.querySelectorAll('.first-column')].map(column => {
+  column.style.setProperty('--animation', 'slide');
+  column.style.setProperty('height', '200%');
+  column.innerHTML = column.innerHTML + column.innerHTML;
+}); 
+   
+});</script>
+ </body>
+
+                               
+                   
+                               
+                            </html>
